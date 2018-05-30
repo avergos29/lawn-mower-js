@@ -2,12 +2,14 @@
   "name": "lawn-mower",
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,md}\"",
-    "start": "node scripts test"
+    "start": "node scripts",
+    "test": "jasmine"
   },
   "dependencies": {
     "fs-extra": "^6.0.1"
   },
   "devDependencies": {
+    "jasmine": "^3.1.0",
     "prettier": "^1.12.1"
   }
 }
